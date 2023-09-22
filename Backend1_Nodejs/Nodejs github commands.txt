@@ -1,0 +1,80 @@
+PS C:\Users\Anjali\Desktop\Node.js> git clone https://github.com/Anjali17aj/Backend-WebApplications.git
+Cloning into 'Backend-WebApplications'...
+remote: Enumerating objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+PS C:\Users\Anjali\Desktop\Node.js> cd .\Backend-WebApplications\
+PS C:\Users\Anjali\Desktop\Node.js\Backend-WebApplications> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+nothing to commit, working tree clean
+
+PS C:\Users\Anjali\Desktop\Node.js\Backend-WebApplications> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ExportInDirectories/
+        ModuleExport/
+        NodeFiles.js
+        NodeProcess.js
+        NodeREPL.js
+        moduleExport2/
+        node.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\Anjali\Desktop\Node.js\Backend-WebApplications> git add .
+PS C:\Users\Anjali\Desktop\Node.js\Backend-WebApplications> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   ExportInDirectories/Fruits/apple.js
+        new file:   ExportInDirectories/Fruits/banana.js
+        new file:   ExportInDirectories/Fruits/index.js
+        new file:   ExportInDirectories/Fruits/orange.js
+        new file:   ExportInDirectories/script.js
+        new file:   ModuleExport/math.js
+        new file:   ModuleExport/script.js
+        new file:   NodeFiles.js
+        new file:   NodeProcess.js
+        new file:   NodeREPL.js
+        new file:   moduleExport2/math.js
+        new file:   moduleExport2/scripts.js
+        new file:   node.txt
+
+PS C:\Users\Anjali\Desktop\Node.js\Backend-WebApplications> git commit -m "Node.js"
+[main 0ac940d] Node.js
+ 13 files changed, 178 insertions(+)
+ create mode 100644 ExportInDirectories/Fruits/apple.js
+ create mode 100644 ExportInDirectories/Fruits/banana.js
+ create mode 100644 ExportInDirectories/Fruits/index.js
+ create mode 100644 ExportInDirectories/Fruits/orange.js
+ create mode 100644 ExportInDirectories/script.js
+ create mode 100644 ModuleExport/math.js
+ create mode 100644 ModuleExport/script.js
+ create mode 100644 NodeFiles.js
+ create mode 100644 NodeProcess.js
+ create mode 100644 NodeREPL.js
+ create mode 100644 moduleExport2/math.js
+ create mode 100644 moduleExport2/scripts.js
+ create mode 100644 node.txt
+PS C:\Users\Anjali\Desktop\Node.js\Backend-WebApplications> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\Anjali\Desktop\Node.js\Backend-WebApplications> git push origin main
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (19/19), 3.18 KiB | 1.59 MiB/s, done.
+Total 19 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Anjali17aj/Backend-WebApplications.git
+   1a3e521..0ac940d  main -> main
