@@ -1,0 +1,267 @@
+github.com/hoppscotch/hoppscotch/discussions/2051
+
+C:\Users\Anjali>cd Desktop
+
+C:\Users\Anjali\Desktop>cd BACKEND
+
+C:\Users\Anjali\Desktop\BACKEND>cd Backend
+
+C:\Users\Anjali\Desktop\BACKEND\Backend>cd Backend2_Node_Expressjs
+
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs>cd ExpressDir
+
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (expressdir)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Anjali
+license: (ISC)
+About to write to C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir\package.json:
+
+{
+  "name": "expressdir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anjali",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>npm install express
+
+added 58 packages, and audited 59 packages in 4s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>touch index.js
+
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>node index.js
+app is listening on port 3000
+^C
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>node index.js
+app is listening on port 3000
+request received
+request received
+request received
+request received
+^C
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>node index.js
+app is listening on port 3000
+request received
+request received
+^C
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>node index.js
+app is listening on port 3000
+^C
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>node index.js
+app is listening on port 3000
+request received
+request received
+^C
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>node index.js
+app is listening on port 3000
+request received
+^C
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>node index.js
+app is listening on port 3000
+request received
+request received
+request received
+^C
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>node index.js
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir\index.js:41
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.18.0
+
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>node index.js
+app is listening on port 3000
+^C
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>node index.js
+app is listening on port 3000
+^C
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>node index.js
+app is listening on port 3000
+^C
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>npm install -g nodemon
+
+added 2 packages, removed 1 package, and changed 31 packages in 5s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>nodemon -v
+3.0.1
+
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>nodemon index.js
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.js`
+app is listening on port 3000
+^C
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>nodemon index2.js
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index2.js`
+app is listening on port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index2.js`
+app is listening on port 3000
+ [nodemon] restarting due to changes...
+[nodemon] starting `node index2.js`
+app is listening on port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index2.js`
+app is listening on port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index2.js`
+app is listening on port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index2.js`
+app is listening on port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index2.js`
+app is listening on port 3000
+^C
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>nodemon index3.js
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index3.js`
+app is listening on port 3000
+{ username: 'anjali' }
+[nodemon] restarting due to changes...
+[nodemon] starting `node index3.js`
+app is listening on port 3000
+{ username: 'anjali', id: '123' }
+{ username: 'anjali', id: '123' }
+[nodemon] restarting due to changes...
+[nodemon] starting `node index3.js`
+app is listening on port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index3.js`
+app is listening on port 3000
+{ username: 'anjali', id: '123' }
+[nodemon] restarting due to changes...
+[nodemon] starting `node index3.js`
+app is listening on port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index3.js`
+app is listening on port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index3.js`
+app is listening on port 3000
+^C
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>nodemon index4.js
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index4.js`
+app is listening on port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index4.js`
+app is listening on port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index4.js`
+app is listening on port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index4.js`
+app is listening on port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index4.js`
+app is listening on port 3000
+^C
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>nodemon index5.js
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index5.js`
+app is listening on port 3000
+{ q: '"apple"' }
+{ q: '"orange"' }
+[nodemon] restarting due to changes...
+[nodemon] starting `node index5.js`
+app is listening on port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index5.js`
+app is listening on port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index5.js`
+app is listening on port 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index5.js`
+app is listening on port 3000
+^C
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>nodemon index6.js
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index6.js`
+app is listening on port 3000
+^A^C
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
