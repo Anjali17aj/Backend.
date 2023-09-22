@@ -1,0 +1,7 @@
+//node.js is a java runtime environment where javascript can run outside browser.
+//Node.js released in 2009 and now it is the most poplular technology that is used to build backend and web server.
+//Node.js is used for server side programming.
+//Node.js is used to build command line tools.
+//Node.js is used to build game development.
+//Node.js is used in iot devices which has drone softwares.
+//Node.js is not a language, library or framework.

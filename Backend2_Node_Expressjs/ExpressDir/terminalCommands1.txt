@@ -1,0 +1,70 @@
+Topic 1 : Creating own web server.
+
+C:\Users\Anjali>cd Desktop
+
+C:\Users\Anjali\Desktop>cd BACKEND
+
+C:\Users\Anjali\Desktop\BACKEND>cd Backend
+
+C:\Users\Anjali\Desktop\BACKEND\Backend>cd Backend2_Node_Expressjs
+
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs>cd ExpressDir
+
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (expressdir)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Anjali
+license: (ISC)
+About to write to C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir\package.json:
+
+{
+  "name": "expressdir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anjali",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>n
+pm install express
+
+added 58 packages, and audited 59 packages in 4s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>touch index.js
+
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>n
+ode index.js
+app is listening on port 3000
+
+^C
+C:\Users\Anjali\Desktop\BACKEND\Backend\Backend2_Node_Expressjs\ExpressDir>node index.js
+app is listening on port 3000
+request received
+request received
