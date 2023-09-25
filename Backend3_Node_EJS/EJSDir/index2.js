@@ -11,6 +11,12 @@ app.get("/",(req, res) => {  //route no. 1
   res.render("home.ejs"); //express will automatically go to views folder and will find home.ejs so no need to mention the path
 });
 
+app.get("/ig/:username",(req, res) =>{
+  const followers = ["Alex","Billy","Lilly","Anjali"];
+  let {username} = req.params;
+  res.render("instagram.ejs",{username, followers});
+});
+
 app.get("/hello",(req, res) => { // route no. 2
     res.send("hello"); //express will automatically go to views folder and will find home.ejs so no need to mention the path
   });
