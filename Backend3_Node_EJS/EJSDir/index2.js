@@ -14,6 +14,12 @@ app.get("/",(req, res) => {  //route no. 1
 app.get("/hello",(req, res) => { // route no. 2
     res.send("hello"); //express will automatically go to views folder and will find home.ejs so no need to mention the path
   });
+
+  app.get("/rolldice",(req, res) => { // route no. 2
+    let diceVal = Math.floor(Math.random()*6) + 1;
+    res.render("rolldice.ejs", {diceVal}); //express will automatically go to views folder and will find home.ejs so no need to mention the path
+  });
+
 app.listen(port, ()=>{
    console.log(`Listening on port ${port}`);
 });
