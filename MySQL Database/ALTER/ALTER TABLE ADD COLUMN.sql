@@ -2,6 +2,7 @@ CREATE DATABASE IF NOT EXISTS instagram;
 SHOW DATABASES;
 USE instagram;
 
+
 CREATE TABLE user (
 id INT,
 age INT,
