@@ -1,0 +1,10 @@
+ //inserting new data
+  let q = "INSERT INTO user (id, username, email, password) VALUES ?";
+  let data = [];
+  for(let i=1; i<=100; i++){
+    data.push(getRandomUser()); //100 fake users
+  }
+  //   let users = [   //array of arrays storing data
+//     ["117","117_anjali","anjaliK17@gmail.com","aj@177"],
+//     ["118","ash_chiks","ash@gmail.com","ash@18"],
+// ];

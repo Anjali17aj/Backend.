@@ -1,0 +1,51 @@
+const { faker } = require('@faker-js/faker');
+const mysql = require('mysql2');
+
+// create the connection to database
+const connection = mysql.createConnection({ //connecting node and db -> npm mysql2 website page
+    host: 'localhost',
+    user: 'root',
+    database: 'my_app',
+    password: 'mysql@anjali17'
+  });
+
+  //inserting new data
+  let q = "INSERT INTO user (id, username, email, password) VALUES ?";
+  let users = [   //array of arrays storing data
+    ["117","117_anjali","anjaliK17@gmail.com","aj@177"],
+    ["118","ash_chiks","ash@gmail.com","ash@18"],
+];
+
+  try{
+    connection.query(q, [users], (err, result) =>{
+        if(err) throw err;
+        console.log(result);
+      }); 
+    } catch (err){
+        console.log(err);
+      }
+      connection.end();
+  
+  // let q = "INSERT INTO user (id, username, email, password) VALUES (?,?,?,?)";
+  // let user = ["123","123_anjali","anjali7@gmail.com","aj@17"];
+  // try{
+  //   connection.query(q, user, (err, result) =>{
+  //       if(err) throw err;
+  //       console.log(result);
+  //       // console.log(result.length);
+  //       // console.log(result[0]);
+  //     });
+  // } catch (err){
+  //   console.log(err);
+  // }
+  // connection.end();
+  
+let getRandomUser = () => {
+    return {
+      id: faker.string.uuid(),
+      username: faker.internet.userName(),
+      email: faker.internet.email(),  
+      password: faker.internet.password(),
+    };
+  }
+//   console.log(getRandomUser());
